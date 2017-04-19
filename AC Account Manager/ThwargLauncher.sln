@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThwargLauncher", "ThwargLauncher\ThwargLauncher.csproj", "{BB684843-D1B1-42D6-A65C-71C57E75E420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mag-Filter", "Mag-Software\Mag-Filter\Mag-Filter.csproj", "{357BEB06-5599-4E29-A147-309EE255C10A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +26,16 @@ Global
 		{BB684843-D1B1-42D6-A65C-71C57E75E420}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BB684843-D1B1-42D6-A65C-71C57E75E420}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{BB684843-D1B1-42D6-A65C-71C57E75E420}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{357BEB06-5599-4E29-A147-309EE255C10A}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
