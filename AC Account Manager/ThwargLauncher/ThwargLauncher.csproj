@@ -56,10 +56,6 @@
     <ApplicationIcon>Images\Logo_circleonly.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MagFilter, Version=4.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Mag-Software\Mag-Filter\bin\Debug\MagFilter.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>.\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -334,6 +330,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UtilityCode\DecalInjection\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mag-Software\Mag-Filter\Mag-Filter.csproj">
+      <Project>{357beb06-5599-4e29-a147-309ee255c10a}</Project>
+      <Name>Mag-Filter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
